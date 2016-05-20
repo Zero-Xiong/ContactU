@@ -20,6 +20,6 @@ extension Contact {
     @NSManaged var email: String?
     @NSManaged var phone: String?
     @NSManaged var contactImage: NSData?
-    @NSManaged var contact_todoitem: NSSet?
+    @NSManaged var toDoItem: NSSet?
 
 }

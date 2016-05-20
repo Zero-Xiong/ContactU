@@ -17,6 +17,6 @@ extension ToDoItem {
     @NSManaged var identifier: String?
     @NSManaged var note: String?
     @NSManaged var dueDate: NSDate?
-    @NSManaged var todoitem_contact: NSManagedObject?
+    @NSManaged var contact: Contact?
 
 }

@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		C8F754421CEEBAAA000E4334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F754411CEEBAAA000E4334 /* AppDelegate.swift */; };
-		C8F754441CEEBAAA000E4334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F754431CEEBAAA000E4334 /* ViewController.swift */; };
 		C8F754471CEEBAAA000E4334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F754451CEEBAAA000E4334 /* Main.storyboard */; };
 		C8F7544A1CEEBAAA000E4334 /* ContactU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8F754481CEEBAAA000E4334 /* ContactU.xcdatamodeld */; };
 		C8F7544C1CEEBAAA000E4334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F7544B1CEEBAAA000E4334 /* Assets.xcassets */; };
 		C8F7544F1CEEBAAA000E4334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F7544D1CEEBAAA000E4334 /* LaunchScreen.storyboard */; };
+		C8F7545B1CEED2F4000E4334 /* AddContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7545A1CEED2F4000E4334 /* AddContactTableViewController.swift */; };
+		C8F754601CEEDB01000E4334 /* ToDoItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7545C1CEEDB01000E4334 /* ToDoItem+CoreDataProperties.swift */; };
+		C8F754611CEEDB01000E4334 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7545D1CEEDB01000E4334 /* ToDoItem.swift */; };
+		C8F754621CEEDB01000E4334 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7545E1CEEDB01000E4334 /* Contact+CoreDataProperties.swift */; };
+		C8F754631CEEDB01000E4334 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7545F1CEEDB01000E4334 /* Contact.swift */; };
+		C8F754661CEEDB5C000E4334 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F754651CEEDB5C000E4334 /* CoreDataHelper.swift */; };
+		C8F754681CEEDCBC000E4334 /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F754671CEEDCBC000E4334 /* ContactListTableViewController.swift */; };
+		C8F7546A1CEEDD00000E4334 /* ContactListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F754691CEEDD00000E4334 /* ContactListTableViewCell.swift */; };
+		C8F7546C1CEEE1F4000E4334 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7546B1CEEE1F4000E4334 /* AddItemViewController.swift */; };
+		C8F7546E1CEEFB30000E4334 /* HaveToContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7546D1CEEFB30000E4334 /* HaveToContactTableViewController.swift */; };
+		C8F754701CEEFB4B000E4334 /* HaveToContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7546F1CEEFB4B000E4334 /* HaveToContactTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C8F7543E1CEEBAAA000E4334 /* ContactU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F754411CEEBAAA000E4334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8F754431CEEBAAA000E4334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C8F754461CEEBAAA000E4334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8F754491CEEBAAA000E4334 /* ContactU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactU.xcdatamodel; sourceTree = "<group>"; };
 		C8F7544B1CEEBAAA000E4334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8F7544E1CEEBAAA000E4334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8F754501CEEBAAA000E4334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F7545A1CEED2F4000E4334 /* AddContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactTableViewController.swift; sourceTree = "<group>"; };
+		C8F7545C1CEEDB01000E4334 /* ToDoItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ToDoItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C8F7545D1CEEDB01000E4334 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		C8F7545E1CEEDB01000E4334 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C8F7545F1CEEDB01000E4334 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		C8F754651CEEDB5C000E4334 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		C8F754671CEEDCBC000E4334 /* ContactListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
+		C8F754691CEEDD00000E4334 /* ContactListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListTableViewCell.swift; sourceTree = "<group>"; };
+		C8F7546B1CEEE1F4000E4334 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		C8F7546D1CEEFB30000E4334 /* HaveToContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaveToContactTableViewController.swift; sourceTree = "<group>"; };
+		C8F7546F1CEEFB4B000E4334 /* HaveToContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaveToContactTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,65 @@
 		C8F754401CEEBAAA000E4334 /* ContactU */ = {
 			isa = PBXGroup;
 			children = (
+				C8F754641CEEDB28000E4334 /* Helpers */,
+				C8F754591CEED2C1000E4334 /* ViewControllers */,
 				C8F754411CEEBAAA000E4334 /* AppDelegate.swift */,
-				C8F754431CEEBAAA000E4334 /* ViewController.swift */,
-				C8F754451CEEBAAA000E4334 /* Main.storyboard */,
-				C8F7544B1CEEBAAA000E4334 /* Assets.xcassets */,
-				C8F7544D1CEEBAAA000E4334 /* LaunchScreen.storyboard */,
+				C8F754561CEEBAC8000E4334 /* Storyboards */,
+				C8F754571CEEBAF3000E4334 /* Resources */,
 				C8F754501CEEBAAA000E4334 /* Info.plist */,
-				C8F754481CEEBAAA000E4334 /* ContactU.xcdatamodeld */,
+				C8F754581CEEBAFA000E4334 /* DataModels */,
 			);
 			path = ContactU;
+			sourceTree = "<group>";
+		};
+		C8F754561CEEBAC8000E4334 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C8F754451CEEBAAA000E4334 /* Main.storyboard */,
+				C8F7544D1CEEBAAA000E4334 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C8F754571CEEBAF3000E4334 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8F7544B1CEEBAAA000E4334 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C8F754581CEEBAFA000E4334 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				C8F7545C1CEEDB01000E4334 /* ToDoItem+CoreDataProperties.swift */,
+				C8F7545D1CEEDB01000E4334 /* ToDoItem.swift */,
+				C8F7545E1CEEDB01000E4334 /* Contact+CoreDataProperties.swift */,
+				C8F7545F1CEEDB01000E4334 /* Contact.swift */,
+				C8F754481CEEBAAA000E4334 /* ContactU.xcdatamodeld */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		C8F754591CEED2C1000E4334 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C8F7545A1CEED2F4000E4334 /* AddContactTableViewController.swift */,
+				C8F754671CEEDCBC000E4334 /* ContactListTableViewController.swift */,
+				C8F754691CEEDD00000E4334 /* ContactListTableViewCell.swift */,
+				C8F7546B1CEEE1F4000E4334 /* AddItemViewController.swift */,
+				C8F7546D1CEEFB30000E4334 /* HaveToContactTableViewController.swift */,
+				C8F7546F1CEEFB4B000E4334 /* HaveToContactTableViewCell.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C8F754641CEEDB28000E4334 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C8F754651CEEDB5C000E4334 /* CoreDataHelper.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +209,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8F754441CEEBAAA000E4334 /* ViewController.swift in Sources */,
+				C8F754681CEEDCBC000E4334 /* ContactListTableViewController.swift in Sources */,
+				C8F754701CEEFB4B000E4334 /* HaveToContactTableViewCell.swift in Sources */,
+				C8F754621CEEDB01000E4334 /* Contact+CoreDataProperties.swift in Sources */,
+				C8F754601CEEDB01000E4334 /* ToDoItem+CoreDataProperties.swift in Sources */,
+				C8F754661CEEDB5C000E4334 /* CoreDataHelper.swift in Sources */,
 				C8F754421CEEBAAA000E4334 /* AppDelegate.swift in Sources */,
+				C8F754611CEEDB01000E4334 /* ToDoItem.swift in Sources */,
+				C8F7546A1CEEDD00000E4334 /* ContactListTableViewCell.swift in Sources */,
+				C8F7546E1CEEFB30000E4334 /* HaveToContactTableViewController.swift in Sources */,
 				C8F7544A1CEEBAAA000E4334 /* ContactU.xcdatamodeld in Sources */,
+				C8F7545B1CEED2F4000E4334 /* AddContactTableViewController.swift in Sources */,
+				C8F754631CEEDB01000E4334 /* Contact.swift in Sources */,
+				C8F7546C1CEEE1F4000E4334 /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
